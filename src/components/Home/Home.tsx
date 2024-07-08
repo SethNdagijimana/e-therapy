@@ -83,6 +83,29 @@ const HomeSection = () => {
            
 
          </section>
+
+         <section className="grid grid-cols-2  bg-[#e3f0fa] h-[660px]">
+
+        <div className="w-1/2 mx-auto gap-[14px] mt-24">
+            <img src="/hero6.png" alt="image" />   
+            </div>
+
+            <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
+
+            <div className="font-bold font-bricolage">
+            <p className=" text-[#141414] text-[40px] leading-[40px]">Don't let mental health challenges</p>
+            <p className=" text-[#141414] text-[40px] leading-[40px]">hold you back from living your best life.</p>
+            </div>
+
+            <div className="space-y-2">
+            <p className="text-[#141414]">Whether you're struggling with anxiety, depression, trauma, or relationship issues, we’re here to support you every step of the way.</p>
+
+            <p className="text-[#141414]">At SR Psychological Services, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
+            </div>
+
+            </div>
+
+          </section>
         </>
     )
 }
