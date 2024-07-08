@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 const Navbar = () => {
     return (
         <>
-      <div className="container pt-[44px]">
+      <div className="p-8 pt-[44px] border border-b-2 border-b-[#cccccc]">
       <nav className="flex items-center justify-between">
         <div className="text-[26px] md:text-[32px] font-bold font-bricolage">
           <Logo />

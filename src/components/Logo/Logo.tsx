@@ -6,7 +6,7 @@ const Logo = () => {
         <>
         
         <div>
-            <Image src="/logo-no-bg.png" width={100} height={100} alt="Logo"/>
+            <Image src="/logo-no-bg.png" width={70} height={70} alt="Logo"/>
         </div>
         </>
 
