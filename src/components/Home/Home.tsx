@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Button } from "../ui/button"
 
 const HomeSection = () => {
@@ -17,7 +18,7 @@ const HomeSection = () => {
         </div>
         
         <div>
-        <img src="/home1.png" alt="image" />
+        <Image src="/home1.png" alt="image" width={680} height={680}/>
  
    
         </div>
@@ -26,7 +27,7 @@ const HomeSection = () => {
          <section className="grid grid-cols-2  bg-[#e3f0fa] h-[500px]">
 
          <div className="w-1/2 mx-auto gap-[14px] mt-24">
-        <img src="/hero2.png" alt="image" />   
+        <Image src="/hero2.png" alt="image" width={400} height={400}/>   
         </div>
 
         <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
@@ -48,7 +49,7 @@ const HomeSection = () => {
 
          <section className="grid grid-cols-3 place-items-center gap-2 pt-[75px] pr-[20px] pl-[20px] pb-[75px] w-full">
             <div className="w-[33%] mx-auto">
-                <img src="/hero3.png" alt="hero3"/>
+                <Image src="/hero3.png" alt="hero3" width={400} height={400}/>
                 <h4 className="text-center mt-1 text-[28px] leading-[28px] font-bricolage font-bold">
                 Telethealth<br />Sessions
                 </h4>
@@ -59,7 +60,7 @@ const HomeSection = () => {
             
             </div>
             <div className="w-[33%] mx-auto">
-                <img src="/hero5.png" alt="hero3"/>
+                <Image src="/hero5.png" alt="hero3" width={400} height={400}/>
                 <h4 className="text-center mt-1 text-[28px] leading-[28px] font-bricolage font-bold">
                 Group<br />Sessions
                 </h4>
@@ -70,7 +71,7 @@ const HomeSection = () => {
             
             </div>
             <div className="w-[33%] mx-auto">
-                <img src="/hero4.png" alt="hero3"/>
+                <Image src="/hero4.png" alt="hero3" width={400} height={400}/>
                 <h4 className="text-center mt-1 text-[28px] leading-[28px] font-bricolage font-bold">
                 Individual<br />Sessions
                 </h4>
@@ -87,18 +88,18 @@ const HomeSection = () => {
          <section className="grid grid-cols-2  bg-[#e3f0fa] h-[660px]">
 
         <div className="w-1/2 mx-auto gap-[14px] mt-24">
-            <img src="/hero6.png" alt="image" />   
+            <Image src="/hero6.png" alt="image" width={350} height={350}/>   
             </div>
 
             <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
 
             <div className="font-bold font-bricolage">
-            <p className=" text-[#141414] text-[40px] leading-[40px]">Don&apos;t let mental health challenges</p>
+            <p className=" text-[#141414] text-[40px] leading-[40px]">Don't let mental health challenges</p>
             <p className=" text-[#141414] text-[40px] leading-[40px]">hold you back from living your best life.</p>
             </div>
 
             <div className="space-y-4 ">
-            <p className="text-[#141414] leading-[28px]">Whether you are struggling with anxiety, depression, trauma, or relationship issues, we&apos;re here to support you every step of the way.</p>
+            <p className="text-[#141414] leading-[28px]">Whether you are struggling with anxiety, depression, trauma, or relationship issues, we're here to support you every step of the way.</p>
 
             <p className="text-[#141414] leading-[28px]">Take the first step towards healing and schedule an appointment with us today.</p>
             <p className="text-[#141414] ">Your journey to better mental health starts here.</p>
