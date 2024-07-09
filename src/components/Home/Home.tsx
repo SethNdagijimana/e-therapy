@@ -94,12 +94,12 @@ const HomeSection = () => {
             <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
 
             <div className="font-bold font-bricolage">
-            <p className=" text-[#141414] text-[40px] leading-[40px]">Don't let mental health challenges</p>
+            <p className=" text-[#141414] text-[40px] leading-[40px]">Don&lsquo;t let mental health challenges</p>
             <p className=" text-[#141414] text-[40px] leading-[40px]">hold you back from living your best life.</p>
             </div>
 
             <div className="space-y-4 ">
-            <p className="text-[#141414] leading-[28px]">Whether you are struggling with anxiety, depression, trauma, or relationship issues, we're here to support you every step of the way.</p>
+            <p className="text-[#141414] leading-[28px]">Whether you are struggling with anxiety, depression, trauma, or relationship issues, we&lsquo;re here to support you every step of the way.</p>
 
             <p className="text-[#141414] leading-[28px]">Take the first step towards healing and schedule an appointment with us today.</p>
             <p className="text-[#141414] ">Your journey to better mental health starts here.</p>
