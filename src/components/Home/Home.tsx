@@ -46,7 +46,7 @@ const HomeSection = () => {
          </section>
 
 
-         <section className="grid grid-cols-3 gap-2 pt-[75px] pr-[20px] pl-[20px] pb-[75px] w-full">
+         <section className="grid grid-cols-3 place-items-center gap-2 pt-[75px] pr-[20px] pl-[20px] pb-[75px] w-full">
             <div className="w-[33%] mx-auto">
                 <img src="/hero3.png" alt="hero3"/>
                 <h4 className="text-center mt-1 text-[28px] leading-[28px] font-bricolage font-bold">
@@ -97,10 +97,11 @@ const HomeSection = () => {
             <p className=" text-[#141414] text-[40px] leading-[40px]">hold you back from living your best life.</p>
             </div>
 
-            <div className="space-y-2">
-            <p className="text-[#141414]">Whether you're struggling with anxiety, depression, trauma, or relationship issues, we’re here to support you every step of the way.</p>
+            <div className="space-y-4 ">
+            <p className="text-[#141414] leading-[28px]">Whether you're struggling with anxiety, depression, trauma, or relationship issues, we’re here to support you every step of the way.</p>
 
-            <p className="text-[#141414]">At SR Psychological Services, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
+            <p className="text-[#141414] leading-[28px]">Take the first step towards healing and schedule an appointment with us today.</p>
+            <p className="text-[#141414] ">Your journey to better mental health starts here.</p>
             </div>
 
             </div>
