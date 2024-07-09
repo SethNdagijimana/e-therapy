@@ -46,7 +46,7 @@ const HomeSection = () => {
          </section>
 
 
-         <section className="grid grid-cols-3 gap-2 pt-[75px] pr-[20px] pl-[20px] pb-[75px] w-full">
+         <section className="grid grid-cols-3 place-items-center gap-2 pt-[75px] pr-[20px] pl-[20px] pb-[75px] w-full">
             <div className="w-[33%] mx-auto">
                 <img src="/hero3.png" alt="hero3"/>
                 <h4 className="text-center mt-1 text-[28px] leading-[28px] font-bricolage font-bold">
@@ -83,6 +83,30 @@ const HomeSection = () => {
            
 
          </section>
+
+         <section className="grid grid-cols-2  bg-[#e3f0fa] h-[660px]">
+
+        <div className="w-1/2 mx-auto gap-[14px] mt-24">
+            <img src="/hero6.png" alt="image" />   
+            </div>
+
+            <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
+
+            <div className="font-bold font-bricolage">
+            <p className=" text-[#141414] text-[40px] leading-[40px]">Don't let mental health challenges</p>
+            <p className=" text-[#141414] text-[40px] leading-[40px]">hold you back from living your best life.</p>
+            </div>
+
+            <div className="space-y-4 ">
+            <p className="text-[#141414] leading-[28px]">Whether you're struggling with anxiety, depression, trauma, or relationship issues, we’re here to support you every step of the way.</p>
+
+            <p className="text-[#141414] leading-[28px]">Take the first step towards healing and schedule an appointment with us today.</p>
+            <p className="text-[#141414] ">Your journey to better mental health starts here.</p>
+            </div>
+
+            </div>
+
+          </section>
         </>
     )
 }
