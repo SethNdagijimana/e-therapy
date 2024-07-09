@@ -37,9 +37,9 @@ const HomeSection = () => {
         </div>
          
         <div className="space-y-2">
-        <p className="text-[#141414] leading-[28px]">At SR Psychological Services, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
+        <p className="text-[#141414] leading-[28px]">At BAHo, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
         
-        <p className="text-[#141414] leading-[28px]">At SR Psychological Services, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
+        <p className="text-[#141414] leading-[28px]">At BAHo, we offer a range of personalized psychotherapy services tailored to meet your unique needs. </p>
         </div>
 
         </div>
