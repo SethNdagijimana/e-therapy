@@ -54,7 +54,7 @@ const HomeSection = () => {
                 </h4>
 
            <div className="w-[200px] mx-auto mt-1">
-           <p className="text-center">Our telehealth services make it easier for you to maintain consistency in therapy, regardless of your schedule or location.</p>
+           <p className="text-center leading-[28px]">Our telehealth services make it easier for you to maintain consistency in therapy, regardless of your schedule or location.</p>
            </div>
             
             </div>
@@ -65,7 +65,7 @@ const HomeSection = () => {
                 </h4>
 
            <div className="w-[200px] mx-auto mt-1">
-           <p className="text-center"> Group therapy can be an effective way to address specific issues, while also building a sense of community and belonging.</p>
+           <p className="text-center leading-[28px]"> Group therapy can be an effective way to address specific issues, while also building a sense of community and belonging.</p>
            </div>
             
             </div>
@@ -76,7 +76,7 @@ const HomeSection = () => {
                 </h4>
 
            <div className="w-[200px] mx-auto mt-1">
-           <p className="text-center"> Our core mission is to offer individualized psychotherapy sessions that cater to the unique needs of each client.</p>
+           <p className="text-center leading-[28px]"> Our core mission is to offer individualized psychotherapy sessions that cater to the unique needs of each client.</p>
            </div>
             
             </div>
