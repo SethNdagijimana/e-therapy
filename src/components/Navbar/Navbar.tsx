@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Logo } from "../Logo"
 import { cn } from "@/lib/utils"
+import { useRouter } from "next/router"
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
 
         <ul className="hidden md:flex items-center justify-between gap-6">
           <li className="cursor-pointer">
-            <Link href="#home">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="cursor-pointer">
             <Link href="#about-us">About Us</Link>
@@ -28,7 +29,7 @@ const Navbar = () => {
             </span>
           </Link>
           <Link
-            href="/signin">
+            href="/signup">
             <span className="md:px-2 md:py-[2px] text-[#212121] font-medium md:text-base text-sm">
               Create Account
             </span>
