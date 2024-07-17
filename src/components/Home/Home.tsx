@@ -1,5 +1,8 @@
+"use client"
+
 import Image from "next/image"
 import { Button } from "../ui/button"
+import { motion } from "framer-motion"
 
 const HomeSection = () => {
     return (
@@ -87,9 +90,12 @@ const HomeSection = () => {
 
          <section className="grid grid-cols-2  bg-[#e3f0fa] h-[660px]">
 
-        <div className="w-1/2 mx-auto gap-[14px] mt-24">
+        <motion.div   initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ ease: "easeInOut", duration: 2 }}
+                     className="w-1/2 mx-auto gap-[14px] mt-24">
             <Image src="/hero6.png" alt="image" width={350} height={350}/>   
-            </div>
+            </motion.div>
 
             <div className="w-1/2 flex items-center justify-center flex-col mx-auto gap-[14px] ">
 
