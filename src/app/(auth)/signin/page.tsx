@@ -3,14 +3,11 @@
 import { FormField } from "@/components/FormField"
 import { Navbar } from "@/components/Navbar"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
 import { useState } from "react"
 
-const SignUp = () => {
-    const [name, setName] = useState<string>()
+const SignIn = () => {
     const [email, setEmail] = useState<string>()
     const [password, setPassword] = useState<string>()
-    const [retypePassword, setRetypePassword] = useState<string>()
     return (
         <>
             <Navbar />
@@ -22,49 +19,28 @@ const SignUp = () => {
                 </div>
 
                 <div className="border rounded-2xl w-[400px] p-4 bg-[#d2e1f7] mt-8">
-                   <p className="text-white font-bold text-center">Sign Up</p>
+                   <p className="text-white font-bold text-center">Sign In</p>
 
                    <div className="mt-8">
                     <form className="space-y-4">
                     <FormField 
-                        label="Name" 
-                        placeholder="Enter Your user Name" 
-                        type="text"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-
-                    <FormField 
                         label="Email" 
+                        value={email}
                         placeholder="Enter Your Email" 
                         type="email"
-                        value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
 
                     <FormField 
-                        label="Passowrd" 
+                        label="Passowrd"
                         placeholder="Enter password" 
-                        type="password"
+                        type="password" 
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                    />
-
-                    <FormField 
-                        label="Retype Password" 
-                        placeholder="retype password" 
-                        type="password"
-                        value={retypePassword}
-                        onChange={(e) => setRetypePassword(e.target.value)}
-                    />
-
-              
-                   <Button type="submit">Submit</Button>
+                       />
+                    <Button type="submit">Log In</Button>
                     </form>
 
-                   <div className="mt-2 cursor-pointer">
-                   <Link href="/signin" className="font-bold font-bricolage">Already Have An Account.. Sign in</Link>
-                   </div>
                    </div>
                 </div>
 
@@ -73,4 +49,4 @@ const SignUp = () => {
     )
 }
 
-export default SignUp
+export default SignIn
